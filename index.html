@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Halaman Profil</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        td, th {
+            border: 1px solid #aaa;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .menu {
+            background-color: #333;
+            color: white;
+        }
+        .no-border td {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Menu -->
+    <table class="menu">
+        <tr>
+            <td><a href="#home">Beranda</a></td>
+            <td><a href="#biodata">Biodata</a></td>
+            <td><a href="#portfolio">Portofolio</a></td>
+            <td><a href="#kontak">Kontak</a></td>
+        </tr>
+    </table>
+
+    <!-- Section 2: Judul di kiri dan Gambar di kanan -->
+    <table class="no-border">
+        <tr>
+            <td width="70%">
+                <h2>Selamat Datang di Profil Saya</h2>
+                <p>Nama: John Doe<br>Profesi: Web Developer</p>
+            </td>
+            <td width="30%">
+                <img src="https://via.placeholder.com/200" alt="Foto Profil" width="200">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Section 3: Biodata 6 box -->
+    <a name="biodata"></a>
+    <h3>Biodata</h3>
+    <table>
+        <tr>
+            <td>Nama Lengkap<br>John Doe</td>
+            <td>Tempat, Tanggal Lahir<br>Jakarta, 1 Januari 1990</td>
+            <td>Alamat<br>Jl. Merdeka No. 10</td>
+        </tr>
+        <tr>
+            <td>Email<br>johndoe@example.com</td>
+            <td>Nomor HP<br>0812-3456-7890</td>
+            <td>Pendidikan<br>S1 Teknik Informatika</td>
+        </tr>
+    </table>
+
+    <!-- Section 4: Portofolio -->
+    <a name="portfolio"></a>
+    <h3>Portofolio</h3>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama Proyek</th>
+            <th>Deskripsi</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Website Company Profile</td>
+            <td>Website statis untuk profil perusahaan menggunakan HTML dan CSS</td>
+            <td><a href="https://www.example1.com" target="_blank">Kunjungi</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aplikasi Toko Online</td>
+            <td>Platform e-commerce berbasis PHP dan MySQL</td>
+            <td><a href="https://www.example2.com" target="_blank">Kunjungi</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sistem Informasi Akademik</td>
+            <td>Aplikasi manajemen data mahasiswa, nilai dan jadwal</td>
+            <td>-</td>
+        </tr>
+    </table>
+
+</body>
+</html>
